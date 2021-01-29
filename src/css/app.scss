@@ -1,0 +1,167 @@
+//Reset
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+// app global css in SCSS form
+.ul-list-inline{
+  list-style: none;
+  padding: 0  ;
+}
+.ul-list-inline li{
+  display: inline;
+  margin-right: 1rem;
+  font-size: 1.2rem;
+}
+
+.font-bold{
+  font-weight: bold;
+}
+
+.link-reset{
+  color: white;
+  text-decoration: none;
+}
+
+.list-icons i{
+  transition: all ease .5s;
+  cursor: pointer;
+}
+
+.list-icons i:hover{
+  color: #1D1D1D;
+}
+
+.title{
+  font-weight: bold;
+  font-size: 4rem;
+  margin: 0;
+}
+
+
+.subtitle{
+  font-weight: bold;
+  font-size: 2.5rem;
+  margin: 0;
+}
+
+.box-title{
+  padding: 2rem;
+  width: 50%;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.featureBox{
+  width: 33%;
+  height: 8rem;
+  padding: 1rem;
+  margin-bottom: 2rem;
+}
+
+.clients-experiencies-box{
+  width: 50%;
+  text-align: center;
+}
+
+.button{
+  padding: .5rem;
+  background: #ff9800;
+}
+
+.rooms-box-grid>div{
+  width: 25%;
+  padding: 0.1rem;
+  height: 23rem;
+  cursor: pointer;
+}
+
+.none{
+  display: none;
+}
+
+.imgBox{
+  opacity: 0;
+  transition: all ease .5s;
+}
+
+.imgBox:hover{
+  opacity: 1;
+}
+
+.py-xxl{
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.bg-principios{
+  height: 80vh;
+  background: url(../assets/img/ab-bann.jpg) no-repeat;
+  background-size: cover;
+}
+
+.boxPrincipios{
+  width: 30%;
+  padding: 2em 2em;
+  background: rgba(233, 168, 32, 0.67);
+  text-align: center;
+  border-radius: 5px;
+  border: 5px solid #6F6F8C;
+  transition: all ease .5s;
+}
+
+.boxPrincipios:hover{
+  background: rgba(111, 111, 140, 0.71);
+}
+
+.img-avatar-team{
+  transition: all ease .5s ;
+}
+
+.avatar-label{
+  opacity: 0;
+  transition: all ease .5s;
+  font-size: 25px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.avatar-label:hover{
+  opacity: 1;
+}
